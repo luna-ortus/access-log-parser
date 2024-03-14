@@ -17,7 +17,7 @@ public class Main {
         int proizvedenie = firstNumber * secondNumber;
         System.out.println("Произведение чисел="+proizvedenie);
 
-        int chastnoe = firstNumber / secondNumber;
+        double chastnoe = (double) firstNumber / secondNumber;
         System.out.println("Частное чисел="+chastnoe);
     }
 }
